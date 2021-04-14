@@ -47,7 +47,7 @@ What is the maximum worth of goods that the thief can steal?
   Recursive
   1. iterate the array of goods
   2. add the weight to the capacity, add the worth to the total worth
-  3. recursively pass the rest of the array excluding rest of the array
+  3. recursively pass the rest of the array excluding the current good
   4. Backtrack
       - subtract current weight from total weight
       - subtract current worth from total worth
